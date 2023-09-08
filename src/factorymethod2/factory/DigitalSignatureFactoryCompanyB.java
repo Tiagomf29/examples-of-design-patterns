@@ -1,7 +1,7 @@
 package factorymethod2.factory;
 
-import factorymethod2.domain.CompanySignatureB;
 import factorymethod2.domain.DigitalSignature;
+import factorymethod2.service.CompanySignatureB;
 
 public class DigitalSignatureFactoryCompanyB extends DigitalSignatureFactory{
 

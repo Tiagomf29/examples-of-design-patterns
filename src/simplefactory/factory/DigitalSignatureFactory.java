@@ -1,9 +1,9 @@
 package simplefactory.factory;
 
-import simplefactory.domain.CompanySignatureA;
-import simplefactory.domain.CompanySignatureB;
 import simplefactory.domain.DigitalSignature;
 import simplefactory.enumerations.Company;
+import simplefactory.service.CompanySignatureA;
+import simplefactory.service.CompanySignatureB;
 
 public abstract class DigitalSignatureFactory {
 	

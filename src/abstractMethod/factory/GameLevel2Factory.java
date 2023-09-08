@@ -1,15 +1,15 @@
 package abstractMethod.factory;
 
 import abstractMethod.domain.gamecharacters.bomb.Bomb;
-import abstractMethod.domain.gamecharacters.bomb.BombLevel2;
 import abstractMethod.domain.gamecharacters.fighter.Fighter;
-import abstractMethod.domain.gamecharacters.fighter.FigtherLevel2;
 import abstractMethod.domain.gamecharacters.moster.Monster;
-import abstractMethod.domain.gamecharacters.moster.MonsterLevel2;
 import abstractMethod.domain.gamecharacters.rocket.Rocket;
-import abstractMethod.domain.gamecharacters.rocket.RocketLevel2;
 import abstractMethod.domain.gamecharacters.ship.Ship;
-import abstractMethod.domain.gamecharacters.ship.ShipLevel2;
+import abstractMethod.service.bomb.BombLevel2;
+import abstractMethod.service.fighter.FigtherLevel2;
+import abstractMethod.service.monster.MonsterLevel2;
+import abstractMethod.service.rocket.RocketLevel2;
+import abstractMethod.service.ship.ShipLevel2;
 
 public class GameLevel2Factory extends GameFactory{
 
